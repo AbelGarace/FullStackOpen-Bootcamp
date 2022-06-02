@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div className="App">
-      <Mensaje message='Estamos trabajando' color='yellow'/>
+      <Mensaje message='Estamos trabajando en ello' color='yellow'/>
       <h1>Titulo de la App</h1>
       <strong>Estamos trabajando en ello</strong>
       <div>
