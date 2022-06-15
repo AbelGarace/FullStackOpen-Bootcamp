@@ -1,4 +1,3 @@
-import { click } from '@testing-library/user-event/dist/click';
 import React, { useState } from 'react';
 
 const CounterLeftRight = (props) => {
@@ -36,7 +35,7 @@ const CounterLeftRight = (props) => {
     }
 
     const ListOfClicks = ({clicks}) => {
-        debugger;
+       
         return <p>{clicks.join(', ')}</p>
     }
 

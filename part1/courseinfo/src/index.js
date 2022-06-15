@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import Title from './Title.js'
 import Content from './Content.js'
 import Total from './Total.js'
+import Contador from './Contador.js'
+import CounterLeftRight from './CounterLeftRight.js';
+import Statistics from './Exercise1.6-1.14.js';
+
 
 const App = () => {
   const course = {
@@ -25,10 +29,24 @@ const App = () => {
 
   return (
     <div>
+      <div>
       <Title course={course}></Title>
       <Content course={course}></Content>
       <Total course={course}></Total>
+      </div>
+      <div>
+        <h1>Contador</h1>
+        <Contador></Contador>
+      </div>
+      <div>
+        <p>Positional Counter</p>
+        <CounterLeftRight></CounterLeftRight>
+      </div>
+
+      <p>Exercises 1.6 -1.14</p>
+      <Statistics></Statistics>
     </div>
+    
   )
 }
 
