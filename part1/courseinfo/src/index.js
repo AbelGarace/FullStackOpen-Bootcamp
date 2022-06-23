@@ -8,6 +8,8 @@ import CounterLeftRight from './CounterLeftRight.js';
 import Statistics from './Exercise1.6-1.14.js';
 import {Course} from './Exercise 2.1-2.5/Course.js';
 import {Courses} from './Exercise 2.1-2.5/Course.js';
+import Diary from './Exercise 2.6-2.10/Diary.js'
+
 const App = () => {
   const course = {
     name: 'Half Stack application development',
@@ -96,15 +98,15 @@ const App = () => {
 
   return (
     <div>
-      <div>
+      {/* <div>
       <Title course={course}></Title>
       <Content course={course}></Content>
       <Total course={course}></Total>
       </div>
-      {/* <div>
+      <div>
         <h1>Contador</h1>
         <Contador></Contador>
-      </div> */}
+      </div>
       <div>
         <p>Positional Counter</p>
         <CounterLeftRight></CounterLeftRight>
@@ -112,10 +114,13 @@ const App = () => {
 
       <p>Exercises 1.6 -1.14</p>
       <Statistics></Statistics>
+
       <p>Exercise 2.1-2.5</p>
 
       <Course course={coursePart2}></Course>
-      <Courses courses={coursePart21}></Courses>
+      <Courses courses={coursePart21}></Courses> */}
+
+      <Diary></Diary>
     </div>
     
   )
